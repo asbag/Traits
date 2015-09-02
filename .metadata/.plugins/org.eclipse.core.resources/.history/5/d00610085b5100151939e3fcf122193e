@@ -1,0 +1,37 @@
+<?php
+/**
+ * @author David Mezquíriz Osés
+ *
+ * Kind of inheritance from a trait
+ */
+
+
+// Interface
+interface Sociable {
+
+	public function like();
+	public function share();
+
+}
+
+// Trait
+trait Sharable {
+
+	public function share($item)
+	{
+		// share this item
+	}
+
+}
+
+// Class
+class Post implements Sociable {
+
+	use Sharable;
+
+	public function like()
+	{
+		//
+	}
+
+}
