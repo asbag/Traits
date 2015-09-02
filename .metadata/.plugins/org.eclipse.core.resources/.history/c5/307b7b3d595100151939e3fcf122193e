@@ -1,0 +1,15 @@
+<?php
+/**
+ * @author David Mezquíriz Osés
+ * 
+ * 
+ */
+
+trait Sharable {
+
+	public function share($item)
+	{
+		return 'share this item';
+	}
+
+}

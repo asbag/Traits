@@ -1,0 +1,24 @@
+<?php
+/**
+ * @author David Mezquíriz Osés
+ * 
+ * One of the problems of PHP as a programming language is the fact 
+ * that you can only have single inheritance. This means a class can 
+ * only inherit from one other class. However, a lot of the time it 
+ * would be beneficial to inherit from multiple classes. For example, 
+ * it might be desirable to inherit methods from a couple of different 
+ * classes in order to prevent code duplication. This problem can lead 
+ * to class that has a long family history of inheritance which often 
+ * does not make sense.
+ */
+
+trait Sharable {
+
+	public function share($item)
+	{
+		return 'share this item' . $item;
+	}
+
+}
+
+

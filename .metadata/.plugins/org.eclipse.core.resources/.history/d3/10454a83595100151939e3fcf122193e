@@ -1,0 +1,8 @@
+<?php
+/**
+ * @author David Mezquíriz Osés
+ * 
+ * Kind of inheritance from a trait
+ */
+
+require('Sharable.php');
